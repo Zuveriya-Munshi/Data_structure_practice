@@ -1,7 +1,9 @@
 import java.util.*;
-class merge_sorted {
+class MergeSorted {
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
         //p1 & p2 is points to last ele of nums1 & nums2 respectively
+        // m is length of nums1 (initially) n is length of nums2 
+        //after sorting the result is also in nums1 so it have the actual m+n length to take the ele from nums2 also
         int p1=m-1 , p2=n-1, i=m+n-1;
         //Loop till the length of nums2
         while(p2>=0){

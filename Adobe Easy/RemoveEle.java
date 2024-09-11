@@ -1,5 +1,5 @@
 import java.util.*;
-class remove_ele {
+class RemoveEle {
     public static int removeElement(int[] nums, int val) {
         int len = nums.length;
         int i=0;
